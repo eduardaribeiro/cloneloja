@@ -1,0 +1,9 @@
+.relatedProducts {
+  display: flex;
+  width: 90%;
+  height: 50vh;
+  justify-content: space-between;
+  margin-top: 5vh;
+  margin-left: 5%;
+  margin-right: 5%;
+}

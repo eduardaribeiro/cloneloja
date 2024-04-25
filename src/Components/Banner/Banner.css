@@ -1,0 +1,89 @@
+/* #sale Config */
+#content{
+    width: 100%;
+    display: block;
+}
+
+#sale{
+    width: 100%;
+    height: 27.5rem;
+    background-image: linear-gradient(to bottom, rgb(235, 235, 235), #f8f9fe);
+    display: flex;
+}
+
+/* #saleContent Config */
+#saleContent{
+    width: 35%;
+    height: 100%;
+    margin-left: 5%;
+    display: block;
+    box-sizing: border-box;
+    padding-top: 5rem;
+}
+
+#saleContent span{
+    font-size: small;
+    font-weight: bolder;
+    color: #ffb222;
+}
+
+#saleContent h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: black;
+}
+
+#saleContent p{
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+
+#saleContent button{
+    width: 7.5rem;
+    height: 2rem;
+    border: none;
+    border-radius: 3px;
+    background-color: #c92071;
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+/* End #saleContent Config */
+
+/* #saleImg Config */
+#saleImage{
+    width: 56%;
+    height: 100%;
+    padding-top: 4vh;
+    padding-left: 10vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+#saleImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-left: -5%;
+}
+
+#decor {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-image: radial-gradient(
+        circle at center,
+        #fdbf4c 0.25vh,
+        transparent 0
+    );
+    background-size: 1.5vh 1.5vh;
+    background-repeat: round;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    z-index: 2;
+}
+/* End #saleImg Config */
+/* End #sale Config */

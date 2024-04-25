@@ -1,0 +1,10 @@
+*{margin: 0; padding: 0;}
+
+#root {
+  width: 100%;
+  display: block;
+  color: #474747;
+  background-color: #f9f8fe;
+  font-size: small;
+  font-family: 'Inter', sans-serif;
+}

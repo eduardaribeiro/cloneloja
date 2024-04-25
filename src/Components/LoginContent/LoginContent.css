@@ -1,0 +1,97 @@
+/* loginContent Config */
+#loginContent {
+  width: 100%;
+  height: 37.5rem;
+  background-image: linear-gradient(to bottom, #b8b9f3, #dcdcfa);
+  display: flex;
+  align-items: center;
+}
+
+/* loginForm Config */
+#loginForm {
+  width: 35%;
+  height: 70%;
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 2rem 1.5rem;
+  box-sizing: border-box;
+  margin: -5% 0 0 10%;
+  display: block;
+}
+
+#loginForm h1 {
+  font-size: xx-large;
+  margin-bottom: 1rem;
+}
+
+#loginForm h4 {
+  font-weight: lighter;
+  margin-bottom: 1rem;
+}
+
+#loginForm a {
+  color: inherit;
+}
+
+#loginForm label {
+  font-weight: bolder;
+}
+
+#loginForm input {
+  width: 100%;
+  height: 2rem;
+  border: none;
+  background-color: rgb(231, 231, 231);
+  color: inherit;
+  margin: 0.25rem 0 1.5rem 0;
+}
+
+#loginForm button {
+  width: 100%;
+  height: 2rem;
+  color: white;
+  background-color: #c92071;
+  border: none;
+  border-radius: 5px;
+  margin: 1.5rem 0;
+  cursor: pointer;
+}
+
+#alternative {
+  width: 100%;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#alternative i {
+  color: #c92071;
+  margin: 0 0.45rem;
+  cursor: pointer;
+}
+/* End loginForm Config */
+
+/* imgLoginContent Config */
+#imgLoginContent {
+  width: 30%;
+  height: 70%;
+  margin: -5% 0 0 5%;
+  position: relative;
+  display: flex;
+}
+
+#shoe1 {
+  transform: translate(-2.5rem, -2rem);
+}
+
+#shoe2 {
+  transform: translate(-7.5rem, 7.5rem);
+}
+/* End imgLoginContent Config */
+
+/* End loginContent Config */

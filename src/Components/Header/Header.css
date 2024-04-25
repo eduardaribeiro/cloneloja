@@ -1,0 +1,123 @@
+/* #header Config */
+#mainHeader {
+  width: 100%;
+  height: 6rem;
+  display: block;
+  background-color: white;
+}
+
+#utils {
+  width: 90%;
+  height: 3.75rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* #header > logo Config */
+#logo {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: #c92071;
+  cursor: pointer;
+}
+
+#logo span {
+  margin-left: 0.5rem;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+/* End #header > logo Config */
+
+/* #header > search Config */
+#search {
+  width: 40%;
+  height: 100%;
+  float: left;
+  margin-left: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#search input {
+  width: 22.5rem;
+  height: 60%;
+  background-color: rgb(231, 231, 231);
+  border: none;
+  border-radius: 3px;
+}
+
+#search i {
+  margin-left: -2rem;
+  color: grey;
+}
+/* End #header > search Config */
+
+/* #header > signup Config */
+#signup {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#signup a {
+  color: inherit;
+}
+
+.link {
+  width: 5rem;
+  height: 50%;
+  background-color: #c92071;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* End #header > signup Config */
+
+/* #header > cart Config */
+#cart {
+  width: 5%;
+  height: 100%;
+  float: right;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+#cart i {
+  cursor: pointer;
+  color: #c92071;
+  font-size: medium;
+}
+/* End #header > cart Config */
+
+/* #header > navBar Config */
+navbar {
+  width: 25%;
+  height: 2.25rem;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+navbar a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+navbar a:hover {
+  color: #c92071;
+  text-decoration: underline;
+}
+/* End #header > navBar Config */
+/* End #header Config */

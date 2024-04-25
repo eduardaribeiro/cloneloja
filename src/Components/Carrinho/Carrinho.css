@@ -1,0 +1,230 @@
+.meuCarinho {
+  width: 80%;
+  display: flex;
+}
+.meuCarinho p {
+  justify-content: flex-end;
+}
+.ths {
+  justify-content: space-between;
+  display: flex;
+  width: 58vw;
+}
+.ps {
+  display: flex;
+  justify-content: space-between;
+  width: 44vw;
+}
+
+.pai {
+  display: flex;
+  width: 100vw;
+}
+
+.productsUnit {
+  border-top: 1px solid rgb(157, 157, 152);
+  border-bottom: 1px solid rgb(157, 157, 152);
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  height: 30vh;
+  display: flex;
+}
+.body2 {
+  background-color: #ffffff;
+  margin-top: 5vh;
+  margin-left: 5%;
+  border-radius: 8px;
+  padding: 3vh;
+  width: 60%;
+  height: 50vh;
+}
+
+.productsUnit img {
+  width: 50%;
+  height: 70%;
+  border-radius: 8px;
+}
+
+.meuCarrinhoProductDesc {
+  display: flex;
+  width: 46%;
+  align-items: center;
+}
+.desc {
+  height: 70%;
+  margin-left: 1vw;
+}
+.desc p {
+  margin-top: 3vh;
+  color: rgb(157, 157, 152);
+}
+.desc span {
+  margin-top: 1vh;
+  color: #1f1f1f;
+}
+.calculations {
+  width: 18%;
+  height: 60%;
+}
+.calcButtons {
+  display: flex;
+  gap: 1vw;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30%;
+}
+.calcButtons button {
+  width: 2vw;
+}
+.calculations a {
+  margin-left: 2.5vw;
+}
+
+.removeItem {
+  margin-top: 2vh;
+}
+
+.prices-carinho {
+  display: flex;
+  width: 37%;
+}
+.unit-div {
+  margin-left: 4vw;
+  padding-top: 6vh;
+  width: 100%;
+}
+
+.unit-div span {
+  color: rgb(170, 172, 172);
+  text-decoration: line-through;
+  font-size: 10px;
+}
+.unit-div p {
+  font-weight: bold;
+  font-size: 14px;
+}
+.cupom_a {
+  display: flex;
+}
+.cupom_a p {
+  font-size: 1.8vh;
+  font-weight: 600;
+  color: #1f1f1f;
+  padding-right: 43vh;
+  padding-bottom: 2vh;
+}
+.cupom_b {
+  width: 100%;
+  display: flex;
+}
+.cupom_b input {
+  width: 50vh;
+  height: 6vh;
+  background-color: #f0ebeb;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1.6vh;
+  padding-left: 2vh;
+  margin-right: 2vh;
+}
+.cupom_b button {
+  width: 9vh;
+  height: 6vh;
+  background-color: #f0ebeb;
+  border: 0;
+  color: #c92071;
+  font-size: 1.5vh;
+  border-radius: 5px;
+ margin-right: 1vh;
+  cursor: pointer;
+}
+.resumo {
+  width: 22%;
+  height: 50vh;
+  padding: 3vh;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-top: 5vh;
+  margin-left: 4vh;
+}
+.resumo h1 {
+  text-align: start;
+  font-size: 2vh;
+  border-bottom: 1px solid rgb(157, 157, 152);
+  padding-bottom: 4.4vh;
+  margin-bottom: 2.3vh;
+}
+.compras_divisao {
+  display: flex;
+  justify-content: space-between;
+}
+.compras_a p {
+  font-size: 1.8vh;
+  color: rgb(170, 172, 172);
+  padding-bottom: 5vh;
+}
+.total strong {
+  font-size: 2.1vh;
+  color: #1f1f1f;
+}
+.compras_b p {
+  font-size: 1.8vh;
+  color: #1f1f1f;
+  padding-bottom: 5vh;
+}
+.compras_b span {
+  font-size: 2vh;
+  color: #ee4266;
+  font-weight: 600;
+  margin-top: 1vh;
+}
+.parcelamento {
+  color: #8f8f8f;
+  font-size: 1.8vh;
+  text-align: right;
+}
+.compras button {
+  margin-top: 2vh;
+  width: 90%;
+  height: 5vh;
+  background-color: #f6aa1c;
+  font-size: 1.9vh;
+  color: #ffffff;
+  font-weight: 600;
+  border: 0;
+  border-radius: 8px;
+  margin-left: 2vh;
+  cursor: pointer;
+}
+.meio {
+  display: flex;
+  padding-top: 4vh;
+  padding-left: 5%;
+}
+.meio a {
+  font-size: 1.8vh;
+  margin-right: 1vh;
+  text-decoration: none;
+  color: #c92071;
+}
+.meio img {
+  margin-top: -0.5vh;
+}
+.subtitle {
+  font-size: 2vh;
+  color: #1f1f1f;
+  font-weight: 600;
+  margin-right: 92vh;
+}
+
+.cards {
+  margin-top: 3vh;
+  display: flex;
+  gap: 2vh;
+  padding-left: 5%;
+  width: 69%;
+  border-radius: 5px;
+}
+.footer {
+  margin-top: 8vh;
+}

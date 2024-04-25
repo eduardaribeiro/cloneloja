@@ -1,0 +1,33 @@
+/* CardList Config */
+#trending {
+  width: 90%;
+  height: fit-content;
+  margin-top: 10vh;
+  margin-left: 5%;
+  margin-right: 5%;
+  display: block;
+}
+
+#trending div h3 {
+  font-size: large;
+  float: left;
+  line-height: 2.5;
+}
+
+#trending div a {
+  font-weight: bolder;
+  text-decoration: none;
+  color: #c92071;
+  float: right;
+  line-height: 2.5;
+}
+
+#trendingContent {
+  width: 100%;
+  gap: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* End CardList Config */

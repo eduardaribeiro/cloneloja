@@ -1,0 +1,57 @@
+/* Card > product Config */
+.trendingProduct {
+  width: 22%;
+  height: 37.5vh;
+  cursor: pointer;
+  
+}
+
+.productImage {
+  width: 100%;
+  height: 75%;
+  position: relative;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.productImage span {
+  padding: 1.5vh;
+  background-color: #e7ff86;
+  font-size: smaller;
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-weight: 700;
+  position: absolute;
+  top: 1.5vh;
+  left: 1.5vh;
+}
+
+.productImage img {
+  width: 100%;
+  height: 100%;
+  margin-left: -1.5vh;
+  object-fit: cover;
+}
+
+.trendingProduct b {
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #47474790;
+  line-height: 1.5;
+}
+
+.trendingProduct h4 {
+  font-weight: lighter;
+  line-height: 1.75;
+}
+
+.trendingProduct p span {
+  color: #47474790;
+  text-decoration: line-through;
+}
+
+.trendingProduct p {
+  color: black;
+  font-weight: bolder;
+}
+/* End Card > product Config */

@@ -1,0 +1,102 @@
+#productDetailsContainer {
+  width: 100%;
+  height: max-content;
+  background-image: linear-gradient(to bottom, rgb(235, 235, 235), #f8f9fe);
+  padding: 1.5rem 5%;
+  box-sizing: border-box;
+}
+
+#productDetailsContainer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#productDetailsContainerContent {
+  width: 100%;
+  height: 27.5rem;
+  margin-top: 1rem;
+  display: flex;
+}
+
+#productCarousel {
+  width: 55%;
+  height: 100%;
+}
+
+#productDescription {
+  width: 45%;
+  height: 100%;
+  padding: 0 2rem;
+  box-sizing: border-box;
+  color: inherit;
+}
+
+#productDescription h1 {
+  color: black;
+  font-size: x-large;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+#productDescription h4 {
+  color: #47474790;
+  margin: 0.5rem 0 0.25rem 0;
+}
+
+#productDescription span {
+  font-size: smaller;
+}
+
+#evaluation {
+  width: max-content;
+  height: 1rem;
+  display: flex;
+  align-items: center;
+  margin: 0.75rem 0;
+}
+
+#evaluation img {
+  height: 100%;
+  margin-right: 0.5rem;
+}
+
+#priceTag span {
+  font-size: xx-large;
+}
+
+#priceTag i {
+  color: #47474770;
+  font-style: normal;
+  text-decoration: line-through;
+  margin-left: 0.5rem;
+}
+
+#sizeSelection,
+#colorSelection {
+  width: 45%;
+  height: fit-content;
+  margin-bottom: 0.5rem;
+}
+
+#sizeSelection input[type="checkbox"],
+#colorSelection input[type="radio"] {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: none;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  accent-color: #c92071;
+}
+
+#productDescription button {
+  width: 35%;
+  height: 2rem;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  background-color: #ffb31f;
+  cursor: pointer;
+}

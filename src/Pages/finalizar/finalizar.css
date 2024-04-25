@@ -1,0 +1,24 @@
+.blocoFinalizar{
+
+    display: flex;
+    width: 100%;
+    
+    
+
+}
+
+.primeiroBloco{
+    width: 70%;
+    background-color:gray;
+}
+
+.primeiroBloco p, input{
+  width: 60%;
+  height: 10%;
+  margin-left: 10%;
+}
+
+.primeiroBloco p{
+    margin-top: 15px;
+    color: black;
+}
